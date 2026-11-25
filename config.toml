@@ -1,0 +1,14 @@
+# Streamlit 설정 — Cloud 에서도 저장소의 .streamlit/config.toml 을 그대로 읽는다
+[theme]
+base = "light"
+primaryColor = "#0F5C63"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F7F7"
+textColor = "#12263A"
+
+[server]
+# 업로드 파일 최대 크기(MB). 공개 앱이므로 작게 둔다.
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false

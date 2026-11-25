@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# Streamlit Community Cloud 가 설치하는 패키지(배포용 최소 목록)
+# 원칙: 실제 import 하는 것만 / torch·대형 모델 금지 / 버전은 하한(>=)만
+streamlit>=1.40
+openai>=1.40
+requests>=2.31
